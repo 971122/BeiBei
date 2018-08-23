@@ -1,4 +1,4 @@
-package com.my.db;
+package com.ssx.entity;
 
 public class Specifications {
   private Long specificationsid;

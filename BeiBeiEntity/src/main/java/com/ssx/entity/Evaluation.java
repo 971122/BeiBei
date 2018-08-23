@@ -1,11 +1,13 @@
-package com.my.db;
+package com.ssx.entity;
+
+import java.util.Date;
 
 public class Evaluation {
   private Long evaluationid;
   private String evaluationtext;
   private Long evaluationstar;
   private String userid;
-  private java.sql.Date evaluationtime;
+  private Date evaluationtime;
 
   public Long getEvaluationid() {
     return evaluationid;
@@ -39,11 +41,11 @@ public class Evaluation {
     this.userid = userid;
   }
 
-  public java.sql.Date getEvaluationtime() {
+  public Date getEvaluationtime() {
     return evaluationtime;
   }
 
-  public void setEvaluationtime(java.sql.Date evaluationtime) {
+  public void setEvaluationtime(Date evaluationtime) {
     this.evaluationtime = evaluationtime;
   }
 }

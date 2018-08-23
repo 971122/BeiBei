@@ -1,4 +1,6 @@
-package com.my.db;
+package com.ssx.entity;
+
+import java.util.Date;
 
 public class Goods {
   private Long goodsid;
@@ -8,7 +10,7 @@ public class Goods {
   private String goodsimgs;
   private String goodstjimgs;
   private Long merchantsid;
-  private java.sql.Date lasttime;
+  private Date lasttime;
 
   public Long getGoodsid() {
     return goodsid;
@@ -66,11 +68,11 @@ public class Goods {
     this.merchantsid = merchantsid;
   }
 
-  public java.sql.Date getLasttime() {
+  public Date getLasttime() {
     return lasttime;
   }
 
-  public void setLasttime(java.sql.Date lasttime) {
+  public void setLasttime(Date lasttime) {
     this.lasttime = lasttime;
   }
 }

@@ -1,4 +1,4 @@
-package com.my.db;
+package com.ssx.entity;
 
 public class Admin {
   private String adminid;

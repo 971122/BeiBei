@@ -1,4 +1,6 @@
-package com.my.db;
+package com.ssx.entity;
+
+import java.util.Date;
 
 public class Cashvolume {
   private Long cashvolumeid;
@@ -6,8 +8,8 @@ public class Cashvolume {
   private Long cashvolumecount;
   private Double cashvolumesxjg;
   private Double cashvolumeds;
-  private java.sql.Timestamp cashvolumebegintime;
-  private java.sql.Timestamp cashvolumefinishtime;
+  private Date cashvolumebegintime;
+  private Date cashvolumefinishtime;
   private Long merchantsid;
   private String cashvolumerule;
 
@@ -51,15 +53,15 @@ public class Cashvolume {
     this.cashvolumeds = cashvolumeds;
   }
 
-  public java.sql.Timestamp getCashvolumebegintime() {
+  public Date getCashvolumebegintime() {
     return cashvolumebegintime;
   }
 
-  public void setCashvolumebegintime(java.sql.Timestamp cashvolumebegintime) {
+  public void setCashvolumebegintime(Date cashvolumebegintime) {
     this.cashvolumebegintime = cashvolumebegintime;
   }
 
-  public java.sql.Timestamp getCashvolumefinishtime() {
+  public Date getCashvolumefinishtime() {
     return cashvolumefinishtime;
   }
 

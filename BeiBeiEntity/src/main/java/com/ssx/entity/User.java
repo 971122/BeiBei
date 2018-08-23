@@ -1,4 +1,6 @@
-package com.my.db;
+package com.ssx.entity;
+
+import java.util.Date;
 
 public class User {
   private String userid;
@@ -7,10 +9,10 @@ public class User {
   private Long usergender;
   private String babyname;
   private Long babygender;
-  private java.sql.Date babycq;
+  private Date babycq;
   private String usertext;
   private String moblie;
-  private java.sql.Date lasttime;
+  private Date lasttime;
 
   public String getUserid() {
     return userid;
@@ -60,11 +62,11 @@ public class User {
     this.babygender = babygender;
   }
 
-  public java.sql.Date getBabycq() {
+  public Date getBabycq() {
     return babycq;
   }
 
-  public void setBabycq(java.sql.Date babycq) {
+  public void setBabycq(Date babycq) {
     this.babycq = babycq;
   }
 
@@ -84,11 +86,11 @@ public class User {
     this.moblie = moblie;
   }
 
-  public java.sql.Date getLasttime() {
+  public Date getLasttime() {
     return lasttime;
   }
 
-  public void setLasttime(java.sql.Date lasttime) {
+  public void setLasttime(Date lasttime) {
     this.lasttime = lasttime;
   }
 }
