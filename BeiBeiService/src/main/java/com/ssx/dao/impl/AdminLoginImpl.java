@@ -13,7 +13,8 @@ public class AdminLoginImpl implements AdminLoginInterface {
     @Autowired
     private AdminLoginDao adminLoginDao;
 
-    public void test() {
+
+    public void aaa() {
 
     }
 
