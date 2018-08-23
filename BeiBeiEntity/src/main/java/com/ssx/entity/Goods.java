@@ -1,26 +1,22 @@
-package com.ssx.entity;
-
+package com.my.db;
 
 public class Goods {
-
-  private long goodsId;
+  private Long goodsid;
   private String goodsname;
   private String goodssummary;
-  private double goodsoriginalPrice;
-  private String goodsImgs;
-  private String goodstjImgs;
-  private long merchantsid;
+  private Double goodsoriginalprice;
+  private String goodsimgs;
+  private String goodstjimgs;
+  private Long merchantsid;
   private java.sql.Date lasttime;
 
-
-  public long getGoodsId() {
-    return goodsId;
+  public Long getGoodsid() {
+    return goodsid;
   }
 
-  public void setGoodsId(long goodsId) {
-    this.goodsId = goodsId;
+  public void setGoodsid(Long goodsid) {
+    this.goodsid = goodsid;
   }
-
 
   public String getGoodsname() {
     return goodsname;
@@ -30,7 +26,6 @@ public class Goods {
     this.goodsname = goodsname;
   }
 
-
   public String getGoodssummary() {
     return goodssummary;
   }
@@ -39,42 +34,37 @@ public class Goods {
     this.goodssummary = goodssummary;
   }
 
-
-  public double getGoodsoriginalPrice() {
-    return goodsoriginalPrice;
+  public Double getGoodsoriginalprice() {
+    return goodsoriginalprice;
   }
 
-  public void setGoodsoriginalPrice(double goodsoriginalPrice) {
-    this.goodsoriginalPrice = goodsoriginalPrice;
+  public void setGoodsoriginalprice(Double goodsoriginalprice) {
+    this.goodsoriginalprice = goodsoriginalprice;
   }
 
-
-  public String getGoodsImgs() {
-    return goodsImgs;
+  public String getGoodsimgs() {
+    return goodsimgs;
   }
 
-  public void setGoodsImgs(String goodsImgs) {
-    this.goodsImgs = goodsImgs;
+  public void setGoodsimgs(String goodsimgs) {
+    this.goodsimgs = goodsimgs;
   }
 
-
-  public String getGoodstjImgs() {
-    return goodstjImgs;
+  public String getGoodstjimgs() {
+    return goodstjimgs;
   }
 
-  public void setGoodstjImgs(String goodstjImgs) {
-    this.goodstjImgs = goodstjImgs;
+  public void setGoodstjimgs(String goodstjimgs) {
+    this.goodstjimgs = goodstjimgs;
   }
 
-
-  public long getMerchantsid() {
+  public Long getMerchantsid() {
     return merchantsid;
   }
 
-  public void setMerchantsid(long merchantsid) {
+  public void setMerchantsid(Long merchantsid) {
     this.merchantsid = merchantsid;
   }
-
 
   public java.sql.Date getLasttime() {
     return lasttime;
@@ -83,5 +73,4 @@ public class Goods {
   public void setLasttime(java.sql.Date lasttime) {
     this.lasttime = lasttime;
   }
-
 }

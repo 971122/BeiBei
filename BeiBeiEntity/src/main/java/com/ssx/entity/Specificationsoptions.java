@@ -1,25 +1,21 @@
-package com.ssx.entity;
-
+package com.my.db;
 
 public class Specificationsoptions {
-
-  private long specificationsoptionsid;
+  private Long specificationsoptionsid;
   private String specificationsoptionsname;
-  private long specificationsid;
-  private long specificationsoptionsparent;
-  private long goodsId;
-  private double goodsprice;
-  private long count;
+  private Long specificationsid;
+  private Long specificationsoptionsparent;
+  private Long goodsid;
+  private Double goodsprice;
+  private Long count;
 
-
-  public long getSpecificationsoptionsid() {
+  public Long getSpecificationsoptionsid() {
     return specificationsoptionsid;
   }
 
-  public void setSpecificationsoptionsid(long specificationsoptionsid) {
+  public void setSpecificationsoptionsid(Long specificationsoptionsid) {
     this.specificationsoptionsid = specificationsoptionsid;
   }
-
 
   public String getSpecificationsoptionsname() {
     return specificationsoptionsname;
@@ -29,49 +25,43 @@ public class Specificationsoptions {
     this.specificationsoptionsname = specificationsoptionsname;
   }
 
-
-  public long getSpecificationsid() {
+  public Long getSpecificationsid() {
     return specificationsid;
   }
 
-  public void setSpecificationsid(long specificationsid) {
+  public void setSpecificationsid(Long specificationsid) {
     this.specificationsid = specificationsid;
   }
 
-
-  public long getSpecificationsoptionsparent() {
+  public Long getSpecificationsoptionsparent() {
     return specificationsoptionsparent;
   }
 
-  public void setSpecificationsoptionsparent(long specificationsoptionsparent) {
+  public void setSpecificationsoptionsparent(Long specificationsoptionsparent) {
     this.specificationsoptionsparent = specificationsoptionsparent;
   }
 
-
-  public long getGoodsId() {
-    return goodsId;
+  public Long getGoodsid() {
+    return goodsid;
   }
 
-  public void setGoodsId(long goodsId) {
-    this.goodsId = goodsId;
+  public void setGoodsid(Long goodsid) {
+    this.goodsid = goodsid;
   }
 
-
-  public double getGoodsprice() {
+  public Double getGoodsprice() {
     return goodsprice;
   }
 
-  public void setGoodsprice(double goodsprice) {
+  public void setGoodsprice(Double goodsprice) {
     this.goodsprice = goodsprice;
   }
 
-
-  public long getCount() {
+  public Long getCount() {
     return count;
   }
 
-  public void setCount(long count) {
+  public void setCount(Long count) {
     this.count = count;
   }
-
 }

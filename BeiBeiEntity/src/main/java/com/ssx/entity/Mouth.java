@@ -1,21 +1,17 @@
-package com.ssx.entity;
-
+package com.my.db;
 
 public class Mouth {
-
-  private long mouthid;
+  private Long mouthid;
   private String mouthsatisfaction;
-  private long goodsid;
+  private Long goodsid;
 
-
-  public long getMouthid() {
+  public Long getMouthid() {
     return mouthid;
   }
 
-  public void setMouthid(long mouthid) {
+  public void setMouthid(Long mouthid) {
     this.mouthid = mouthid;
   }
-
 
   public String getMouthsatisfaction() {
     return mouthsatisfaction;
@@ -25,13 +21,11 @@ public class Mouth {
     this.mouthsatisfaction = mouthsatisfaction;
   }
 
-
-  public long getGoodsid() {
+  public Long getGoodsid() {
     return goodsid;
   }
 
-  public void setGoodsid(long goodsid) {
+  public void setGoodsid(Long goodsid) {
     this.goodsid = goodsid;
   }
-
 }

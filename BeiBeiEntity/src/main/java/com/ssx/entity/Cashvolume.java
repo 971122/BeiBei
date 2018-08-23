@@ -1,23 +1,23 @@
-package com.ssx.entity;
-
+package com.my.db;
 
 public class Cashvolume {
-
-  private long cashvolumeid;
+  private Long cashvolumeid;
   private String cashvolumename;
-  private String cashvolumekey;
-  private double cashvolumesxjg;
-  private double cashvolumeds;
+  private Long cashvolumecount;
+  private Double cashvolumesxjg;
+  private Double cashvolumeds;
+  private java.sql.Timestamp cashvolumebegintime;
+  private java.sql.Timestamp cashvolumefinishtime;
+  private Long merchantsid;
+  private String cashvolumerule;
 
-
-  public long getCashvolumeid() {
+  public Long getCashvolumeid() {
     return cashvolumeid;
   }
 
-  public void setCashvolumeid(long cashvolumeid) {
+  public void setCashvolumeid(Long cashvolumeid) {
     this.cashvolumeid = cashvolumeid;
   }
-
 
   public String getCashvolumename() {
     return cashvolumename;
@@ -27,31 +27,59 @@ public class Cashvolume {
     this.cashvolumename = cashvolumename;
   }
 
-
-  public String getCashvolumekey() {
-    return cashvolumekey;
+  public Long getCashvolumecount() {
+    return cashvolumecount;
   }
 
-  public void setCashvolumekey(String cashvolumekey) {
-    this.cashvolumekey = cashvolumekey;
+  public void setCashvolumecount(Long cashvolumecount) {
+    this.cashvolumecount = cashvolumecount;
   }
 
-
-  public double getCashvolumesxjg() {
+  public Double getCashvolumesxjg() {
     return cashvolumesxjg;
   }
 
-  public void setCashvolumesxjg(double cashvolumesxjg) {
+  public void setCashvolumesxjg(Double cashvolumesxjg) {
     this.cashvolumesxjg = cashvolumesxjg;
   }
 
-
-  public double getCashvolumeds() {
+  public Double getCashvolumeds() {
     return cashvolumeds;
   }
 
-  public void setCashvolumeds(double cashvolumeds) {
+  public void setCashvolumeds(Double cashvolumeds) {
     this.cashvolumeds = cashvolumeds;
   }
 
+  public java.sql.Timestamp getCashvolumebegintime() {
+    return cashvolumebegintime;
+  }
+
+  public void setCashvolumebegintime(java.sql.Timestamp cashvolumebegintime) {
+    this.cashvolumebegintime = cashvolumebegintime;
+  }
+
+  public java.sql.Timestamp getCashvolumefinishtime() {
+    return cashvolumefinishtime;
+  }
+
+  public void setCashvolumefinishtime(java.sql.Timestamp cashvolumefinishtime) {
+    this.cashvolumefinishtime = cashvolumefinishtime;
+  }
+
+  public Long getMerchantsid() {
+    return merchantsid;
+  }
+
+  public void setMerchantsid(Long merchantsid) {
+    this.merchantsid = merchantsid;
+  }
+
+  public String getCashvolumerule() {
+    return cashvolumerule;
+  }
+
+  public void setCashvolumerule(String cashvolumerule) {
+    this.cashvolumerule = cashvolumerule;
+  }
 }

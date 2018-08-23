@@ -1,27 +1,22 @@
-package com.ssx.entity;
-
+package com.my.db;
 
 public class Type {
+  private Long typeid;
+  private String typename;
 
-  private long typeid;
-  private String typeName;
-
-
-  public long getTypeid() {
+  public Long getTypeid() {
     return typeid;
   }
 
-  public void setTypeid(long typeid) {
+  public void setTypeid(Long typeid) {
     this.typeid = typeid;
   }
 
-
-  public String getTypeName() {
-    return typeName;
+  public String getTypename() {
+    return typename;
   }
 
-  public void setTypeName(String typeName) {
-    this.typeName = typeName;
+  public void setTypename(String typename) {
+    this.typename = typename;
   }
-
 }

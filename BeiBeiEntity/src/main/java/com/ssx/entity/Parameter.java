@@ -1,47 +1,40 @@
-package com.ssx.entity;
-
+package com.my.db;
 
 public class Parameter {
+  private Long parameterid;
+  private String parameterkey;
+  private String parametervalues;
+  private Long goodsid;
 
-  private long parameterId;
-  private String parameterKey;
-  private String parameterValues;
-  private long goodsId;
-
-
-  public long getParameterId() {
-    return parameterId;
+  public Long getParameterid() {
+    return parameterid;
   }
 
-  public void setParameterId(long parameterId) {
-    this.parameterId = parameterId;
+  public void setParameterid(Long parameterid) {
+    this.parameterid = parameterid;
   }
 
-
-  public String getParameterKey() {
-    return parameterKey;
+  public String getParameterkey() {
+    return parameterkey;
   }
 
-  public void setParameterKey(String parameterKey) {
-    this.parameterKey = parameterKey;
+  public void setParameterkey(String parameterkey) {
+    this.parameterkey = parameterkey;
   }
 
-
-  public String getParameterValues() {
-    return parameterValues;
+  public String getParametervalues() {
+    return parametervalues;
   }
 
-  public void setParameterValues(String parameterValues) {
-    this.parameterValues = parameterValues;
+  public void setParametervalues(String parametervalues) {
+    this.parametervalues = parametervalues;
   }
 
-
-  public long getGoodsId() {
-    return goodsId;
+  public Long getGoodsid() {
+    return goodsid;
   }
 
-  public void setGoodsId(long goodsId) {
-    this.goodsId = goodsId;
+  public void setGoodsid(Long goodsid) {
+    this.goodsid = goodsid;
   }
-
 }

@@ -1,6 +1,5 @@
 package com.ssx.dao;
 
-import com.ssx.entity.Admin;
 import org.apache.ibatis.annotations.Select;
 
 

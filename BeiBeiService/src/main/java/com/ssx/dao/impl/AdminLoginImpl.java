@@ -1,7 +1,6 @@
 package com.ssx.dao.impl;
 
 import com.ssx.dao.AdminLoginDao;
-import com.ssx.entity.Admin;
 import com.ssx.interfaces.AdminLoginInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

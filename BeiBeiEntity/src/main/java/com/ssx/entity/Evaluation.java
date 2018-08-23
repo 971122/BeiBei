@@ -1,25 +1,19 @@
-package com.ssx.entity;
-
-
-import java.util.Date;
+package com.my.db;
 
 public class Evaluation {
-
-  private long evaluationid;
+  private Long evaluationid;
   private String evaluationtext;
-  private long evaluationstar;
+  private Long evaluationstar;
   private String userid;
-  private Date evaluationtime;
+  private java.sql.Date evaluationtime;
 
-
-  public long getEvaluationid() {
+  public Long getEvaluationid() {
     return evaluationid;
   }
 
-  public void setEvaluationid(long evaluationid) {
+  public void setEvaluationid(Long evaluationid) {
     this.evaluationid = evaluationid;
   }
-
 
   public String getEvaluationtext() {
     return evaluationtext;
@@ -29,15 +23,13 @@ public class Evaluation {
     this.evaluationtext = evaluationtext;
   }
 
-
-  public long getEvaluationstar() {
+  public Long getEvaluationstar() {
     return evaluationstar;
   }
 
-  public void setEvaluationstar(long evaluationstar) {
+  public void setEvaluationstar(Long evaluationstar) {
     this.evaluationstar = evaluationstar;
   }
-
 
   public String getUserid() {
     return userid;
@@ -47,13 +39,11 @@ public class Evaluation {
     this.userid = userid;
   }
 
-
-  public Date getEvaluationtime() {
+  public java.sql.Date getEvaluationtime() {
     return evaluationtime;
   }
 
-  public void setEvaluationtime(Date evaluationtime) {
+  public void setEvaluationtime(java.sql.Date evaluationtime) {
     this.evaluationtime = evaluationtime;
   }
-
 }

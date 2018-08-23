@@ -1,25 +1,21 @@
-package com.ssx.entity;
-
+package com.my.db;
 
 public class Useraddress {
-
-  private long useraddressid;
+  private Long useraddressid;
   private String useraddressxq;
   private String useruseraddressxx;
   private String addresscode;
   private String addressname;
-  private String addressMoble;
-  private long yesnodefault;
+  private String addressmoble;
+  private Long yesnodefault;
 
-
-  public long getUseraddressid() {
+  public Long getUseraddressid() {
     return useraddressid;
   }
 
-  public void setUseraddressid(long useraddressid) {
+  public void setUseraddressid(Long useraddressid) {
     this.useraddressid = useraddressid;
   }
-
 
   public String getUseraddressxq() {
     return useraddressxq;
@@ -29,7 +25,6 @@ public class Useraddress {
     this.useraddressxq = useraddressxq;
   }
 
-
   public String getUseruseraddressxx() {
     return useruseraddressxx;
   }
@@ -37,7 +32,6 @@ public class Useraddress {
   public void setUseruseraddressxx(String useruseraddressxx) {
     this.useruseraddressxx = useruseraddressxx;
   }
-
 
   public String getAddresscode() {
     return addresscode;
@@ -47,7 +41,6 @@ public class Useraddress {
     this.addresscode = addresscode;
   }
 
-
   public String getAddressname() {
     return addressname;
   }
@@ -56,22 +49,19 @@ public class Useraddress {
     this.addressname = addressname;
   }
 
-
-  public String getAddressMoble() {
-    return addressMoble;
+  public String getAddressmoble() {
+    return addressmoble;
   }
 
-  public void setAddressMoble(String addressMoble) {
-    this.addressMoble = addressMoble;
+  public void setAddressmoble(String addressmoble) {
+    this.addressmoble = addressmoble;
   }
 
-
-  public long getYesnodefault() {
+  public Long getYesnodefault() {
     return yesnodefault;
   }
 
-  public void setYesnodefault(long yesnodefault) {
+  public void setYesnodefault(Long yesnodefault) {
     this.yesnodefault = yesnodefault;
   }
-
 }

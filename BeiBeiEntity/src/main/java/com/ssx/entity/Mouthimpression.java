@@ -1,22 +1,18 @@
-package com.ssx.entity;
-
+package com.my.db;
 
 public class Mouthimpression {
-
-  private long mouthimpressionid;
+  private Long mouthimpressionid;
   private String mouthimpressionname;
-  private long mouthimpressioncount;
-  private long mouthid;
+  private Long mouthimpressioncount;
+  private Long mouthid;
 
-
-  public long getMouthimpressionid() {
+  public Long getMouthimpressionid() {
     return mouthimpressionid;
   }
 
-  public void setMouthimpressionid(long mouthimpressionid) {
+  public void setMouthimpressionid(Long mouthimpressionid) {
     this.mouthimpressionid = mouthimpressionid;
   }
-
 
   public String getMouthimpressionname() {
     return mouthimpressionname;
@@ -26,22 +22,19 @@ public class Mouthimpression {
     this.mouthimpressionname = mouthimpressionname;
   }
 
-
-  public long getMouthimpressioncount() {
+  public Long getMouthimpressioncount() {
     return mouthimpressioncount;
   }
 
-  public void setMouthimpressioncount(long mouthimpressioncount) {
+  public void setMouthimpressioncount(Long mouthimpressioncount) {
     this.mouthimpressioncount = mouthimpressioncount;
   }
 
-
-  public long getMouthid() {
+  public Long getMouthid() {
     return mouthid;
   }
 
-  public void setMouthid(long mouthid) {
+  public void setMouthid(Long mouthid) {
     this.mouthid = mouthid;
   }
-
 }

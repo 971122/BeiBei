@@ -1,21 +1,16 @@
-package com.ssx.entity;
-
-
-import java.util.Date;
+package com.my.db;
 
 public class User {
-
   private String userid;
   private String userpassword;
   private String nickname;
-  private long userGender;
+  private Long usergender;
   private String babyname;
-  private long babyGender;
-  private Date babycq;
+  private Long babygender;
+  private java.sql.Date babycq;
   private String usertext;
   private String moblie;
-  private Date lasttime;
-
+  private java.sql.Date lasttime;
 
   public String getUserid() {
     return userid;
@@ -25,7 +20,6 @@ public class User {
     this.userid = userid;
   }
 
-
   public String getUserpassword() {
     return userpassword;
   }
@@ -33,7 +27,6 @@ public class User {
   public void setUserpassword(String userpassword) {
     this.userpassword = userpassword;
   }
-
 
   public String getNickname() {
     return nickname;
@@ -43,15 +36,13 @@ public class User {
     this.nickname = nickname;
   }
 
-
-  public long getUserGender() {
-    return userGender;
+  public Long getUsergender() {
+    return usergender;
   }
 
-  public void setUserGender(long userGender) {
-    this.userGender = userGender;
+  public void setUsergender(Long usergender) {
+    this.usergender = usergender;
   }
-
 
   public String getBabyname() {
     return babyname;
@@ -61,24 +52,21 @@ public class User {
     this.babyname = babyname;
   }
 
-
-  public long getBabyGender() {
-    return babyGender;
+  public Long getBabygender() {
+    return babygender;
   }
 
-  public void setBabyGender(long babyGender) {
-    this.babyGender = babyGender;
+  public void setBabygender(Long babygender) {
+    this.babygender = babygender;
   }
 
-
-  public Date getBabycq() {
+  public java.sql.Date getBabycq() {
     return babycq;
   }
 
-  public void setBabycq(Date babycq) {
+  public void setBabycq(java.sql.Date babycq) {
     this.babycq = babycq;
   }
-
 
   public String getUsertext() {
     return usertext;
@@ -88,7 +76,6 @@ public class User {
     this.usertext = usertext;
   }
 
-
   public String getMoblie() {
     return moblie;
   }
@@ -97,13 +84,11 @@ public class User {
     this.moblie = moblie;
   }
 
-
-  public Date getLasttime() {
+  public java.sql.Date getLasttime() {
     return lasttime;
   }
 
-  public void setLasttime(Date lasttime) {
+  public void setLasttime(java.sql.Date lasttime) {
     this.lasttime = lasttime;
   }
-
 }

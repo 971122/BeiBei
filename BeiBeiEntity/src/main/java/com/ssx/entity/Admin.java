@@ -1,12 +1,9 @@
-package com.ssx.entity;
-
+package com.my.db;
 
 public class Admin {
-
   private String adminid;
   private String pwd;
-  private long adminQx;
-
+  private Long adminqx;
 
   public String getAdminid() {
     return adminid;
@@ -16,7 +13,6 @@ public class Admin {
     this.adminid = adminid;
   }
 
-
   public String getPwd() {
     return pwd;
   }
@@ -25,13 +21,11 @@ public class Admin {
     this.pwd = pwd;
   }
 
-
-  public long getAdminQx() {
-    return adminQx;
+  public Long getAdminqx() {
+    return adminqx;
   }
 
-  public void setAdminQx(long adminQx) {
-    this.adminQx = adminQx;
+  public void setAdminqx(Long adminqx) {
+    this.adminqx = adminqx;
   }
-
 }

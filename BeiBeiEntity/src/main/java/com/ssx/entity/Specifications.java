@@ -1,20 +1,16 @@
-package com.ssx.entity;
-
+package com.my.db;
 
 public class Specifications {
-
-  private long specificationsid;
+  private Long specificationsid;
   private String specificationsname;
 
-
-  public long getSpecificationsid() {
+  public Long getSpecificationsid() {
     return specificationsid;
   }
 
-  public void setSpecificationsid(long specificationsid) {
+  public void setSpecificationsid(Long specificationsid) {
     this.specificationsid = specificationsid;
   }
-
 
   public String getSpecificationsname() {
     return specificationsname;
@@ -23,5 +19,4 @@ public class Specifications {
   public void setSpecificationsname(String specificationsname) {
     this.specificationsname = specificationsname;
   }
-
 }
