@@ -13,6 +13,7 @@
         <module>BeiBeiService</module>
         <module>BeiBeiPortal</module>
         <module>BeiBeiEntity</module>
+        <module>BeiBeiEntity</module>
     </modules>
 
 </project>

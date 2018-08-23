@@ -9,6 +9,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/BeiBeiController/pom.xml" />
+        <option value="$PROJECT_DIR$/BeiBeiEntity/pom.xml" />
       </set>
     </option>
   </component>
