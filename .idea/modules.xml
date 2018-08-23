@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BeiBei.iml" filepath="$PROJECT_DIR$/BeiBei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BeiBeiEntity/BeiBeiEntity.iml" filepath="$PROJECT_DIR$/BeiBeiEntity/BeiBeiEntity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BeiBeiInterface/BeiBeiInterface.iml" filepath="$PROJECT_DIR$/BeiBeiInterface/BeiBeiInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BeiBeiPortal/BeiBeiPortal.iml" filepath="$PROJECT_DIR$/BeiBeiPortal/BeiBeiPortal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BeiBeiService/BeiBeiService.iml" filepath="$PROJECT_DIR$/BeiBeiService/BeiBeiService.iml" />
+    </modules>
+  </component>
+</project>

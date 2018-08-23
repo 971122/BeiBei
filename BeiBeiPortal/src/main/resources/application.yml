@@ -1,0 +1,11 @@
+server:
+  port: 10000
+spring:
+  mvc:
+  activemq:
+    broker-url: tcp://0.0.0.0:61616
+    user: root
+    password: 123
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
